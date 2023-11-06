@@ -1,0 +1,417 @@
+1-Html es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otrosEl lenguaje html fue creado en 1991, tuvo 5 versiones: 2.0, 3.2, 4.0, 4.01 y el 5.
+2-La w3c establece 4 principios para la creacion de documentos html, debe ser Perceptible, Operable, Comprensible y Robusto.
+3-Los atributos de presentación de HTML son desaprobados cuando existen alternativas con hojas de estilo . Un elemento o atributo obsoleto es aquél para el cual no hay garantía de soporte por parte de un agente de usuario.
+4-Una DTD es un documento que define la estructura de un documento XML: los elementos, atributos, entidades, notaciones, etc, que pueden aparecer, el orden y el número de veces que pueden aparecer, cuáles pueden ser hijos de cuáles. 
+5- Los metadatos suelen describirse como "datos sobre datos". En otras palabras, si el HTML de su página web son datos, los metadatos son información adicional que se utilizan para explicar varias cosas sobre ese HTML. Se deben añadir entre las etiquetas <head> </head> del código HTML
+
+2- a- No es obligatorio.su efecto es crear un comentario y se ubica en cualquier lado del programa. 
+<!-- etiqueta
+ Código controlado el día 12/08/2009 contenido
+→etiqueta
+
+b- es obligatorio , se ubica en el body. su efecto es crear un contenedor
+<div etiqueta de apertura
+id="bloque1" atributo 
+Contenido del bloque1 contenido
+</div> etiqueta de cierre
+
+c-es obligatorio , se ubica en el body. su efecto es crear una imagen 
+ <img etiqueta
+src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32"
+longdesc="detalles.htm" atributo
+
+d-es obligatorio, se ubica en el body. su efecto es colocar las palabras clave. 
+<meta/> etiqueta
+ name="keywords" lang="es" content="casa, compra, venta, alquiler " atributos
+ http-equiv="expires" content="16-Sep-2019 7:49 PM"  atributos 
+ /> etiqueta
+
+
+e- es obligatorio , se ubica en el body. su efecto es crear un enlace.
+<a etiqueta de apertura
+href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8"
+ rel="help">  atributo
+Resumen HTML contenido
+</a> etiqueta de cierre
+
+f- es obligatorio, se ubica en el body. su efecto es crear una tabla. 
+<table etiqueta
+width="200" summary="Datos correspondientes al ejercicio vencido"> <caption align="top"> atributos
+Título contenido 
+</caption> etiqueta
+<tr> etiqueta
+<th scope="col"> atributos 
+&nbsp; contenido
+</th> etiqueta
+<th scope="col"> atributos
+A contenido
+</th>  etiqueta
+<th scope="col"> atributo
+B contenido
+</th> etiqueta
+<th scope="col"> atributo
+C contenido
+</th> etiqueta
+</tr> etiqueta
+<tr> etiqueta
+<th scope="row"> atributo
+1º contenido
+</th> etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>etiqueta
+<td>etiqueta
+&nbsp;  contenido
+</td>etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>
+</tr>
+<tr>
+<th scope="row"> atributos
+2º contenido
+</th>etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>etiqueta
+</tr>etiqueta
+</table>etiqueta
+
+
+3. a) 
+Mediante esta linea de codigo se abre Google en la misma ventana que tenemos abierto el sitio.
+
+Mediante esta linea de codigo se abre Google en una nueva ventana con "target"
+
+No hay visualización directa para estos atributos en el contenido del enlace.
+
+ "Click aquí para ir a Google" con un enlace que aparentemente lleva al inicio de la página actual.
+Similar al cuarto enlace, pero esta vez la URL de anclaje es "#arriba". Esto probablemente esté diseñado para llevar al usuario a la sección identificada por el anclaje con nombre "arriba".
+
+Este es un elemento de anclaje con nombre y un atributo id coincidente. Proporciona un punto en la página al que otros enlaces pueden dirigirse utilizando "#arriba".
+
+b) 
+Aparecerá una imagen "imagen1" seguida del enlace "Click aquí".
+Aparecerá la imagen "imagen1" como un enlace a "http://www.google.com.ar", seguida del texto "Click aquí".
+Aparecerá el enlace con la imagen "imagen1" seguida del texto "Click aquí".
+Aparecerá la imagen "imagen1" como un enlace a "http://www.google.com.ar", seguida de un segundo enlace independiente con el texto "Click aquí".
+
+c) 
+Una lista no ordenada con los elementos "xxx", "yyy" y "zzz".
+Una lista ordenada con los elementos "xxx", "yyy" y "zzz".
+Una lista ordenada con solo el elemento "xxx".
+Una lista ordenada con el elemento "yyy" como el segundo elemento (valor 2).
+Una lista ordenada con el elemento "zzz" como el tercer elemento (valor 3).
+Un bloque de cita que contiene una lista numerada del 1 al 3 con los elementos "xxx", "yyy" y "zzz".
+
+d) En este caso, tienes dos segmentos de código que crean tablas con celdas y encabezados.
+La primera tabla: 
+Tiene un borde visible con valor "1".
+El ancho de la tabla es de 300 píxeles.
+Utiliza elementos <tr> para las filas y <th> para los encabezados de columna. Los encabezados de columna están en negrita (<strong>) y contienen "Columna 1" y "Columna 2".
+Las celdas de datos están etiquetadas con <td> y contienen "Celda 1", "Celda 2", "Celda 3" y "Celda 4".
+
+La segunda tabla:
+También tiene un borde visible con valor "1".
+El ancho de la tabla es de 300 píxeles.
+Se utilizan elementos <tr> para las filas y <td> para las celdas.
+Las celdas de encabezado de columna están en negrita (<strong>) y centradas mediante el uso de <div align="center">. Contienen "Columna1" y "Columna 2".
+Las celdas de datos contienen "Celda 1", "Celda 2", "Celda 3" y "Celda 4".
+
+e) Tabla 1:
+La tabla tiene un ancho de 200 píxeles.
+Tiene un elemento <caption> que muestra el texto "Título" como título de la tabla.
+La tabla contiene dos filas y tres columnas.
+Las celdas en las filas tienen un fondo de color gris claro (#dddddd) y contienen un espacio en blanco (&nbsp;).
+
+Tabla 2: 
+La tabla también tiene un ancho de 200 píxeles.
+La primera fila tiene una celda que abarca las tres columnas (colspan="3") y contiene el texto "Título" centrado.
+La tabla contiene tres filas y tres columnas.
+Las celdas en las filas tienen un fondo de color gris claro (#dddddd) y contienen un espacio en blanco (&nbsp;).
+
+f) Tabla 1:
+La tabla tiene un ancho de 200 píxeles.
+La primera fila tiene una celda que abarca las tres columnas (colspan="3") y contiene el texto "Título" centrado.
+La tabla contiene tres filas y tres columnas.
+La celda en la primera columna de la segunda fila abarca dos filas (rowspan="2") y tiene un fondo de color gris claro (#dddddd). Contiene un espacio en blanco (&nbsp;).
+Las celdas restantes tienen un fondo de color gris claro (#dddddd) y contienen un espacio en blanco (&nbsp;).
+
+Tabla 2:
+La tabla tiene un ancho de 200 píxeles.
+La primera fila tiene una celda que abarca las tres columnas (colspan="3") y contiene el texto "Título" centrado.
+La segunda fila tiene una celda que abarca dos columnas (colspan="2") y tiene un fondo de color gris claro (#dddddd). Contiene un espacio en blanco (&nbsp;).
+La tercera fila tiene tres celdas con fondo de color gris claro (#dddddd) y contienen un espacio en blanco (&nbsp;).
+
+g) Tabla 1: 
+La tabla tiene un ancho de 200 píxeles y un borde visible con valor "1".
+La primera fila tiene una celda que abarca las tres columnas (colspan="3") y contiene el texto "Título" centrado.
+La segunda fila tiene una celda que abarca dos columnas (colspan="2") y dos filas (rowspan="2"). Esta celda contiene un espacio en blanco (&nbsp;).
+En la segunda columna de la segunda fila se coloca una celda con ancho del 50% de la celda contenedora (width="50%") y contiene un espacio en blanco (&nbsp;).
+
+Tabla 2: 
+La tabla tiene un ancho de 200 píxeles y un borde visible con valor "1".
+La primera fila tiene una celda que abarca las tres columnas (colspan="3") y contiene el texto "Título" centrado.
+La segunda fila tiene una celda que abarca dos columnas (colspan="2") y dos filas (rowspan="2"). Esta celda contiene un espacio en blanco (&nbsp;).
+En la segunda columna de la segunda fila se coloca una celda con ancho del 50% de la celda contenedora (width="50%") y contiene un espacio en blanco (&nbsp;).
+
+h) Formulario 1: 
+El formulario tiene un atributo id de "form1" y un atributo name de "form1".
+La acción (action) del formulario es "procesar.php", lo que significa que cuando se envíe el formulario, los datos se enviarán al archivo "procesar.php".
+Se utiliza el método post para enviar los datos.
+El formulario se abre en una nueva ventana o pestaña del navegador debido al atributo target="_blank".
+El formulario contiene un campo de usuario (Usuario:) con un valor predefinido "xxx" y un campo de contraseña (Clave:) con un valor predefinido "xxx".
+Ambos campos están dentro de un fieldset con la leyenda "LOGIN".
+Hay un botón de envío (input type="submit) con el valor "Enviar".
+
+Formulario 2: 
+El formulario tiene un atributo id de "form2" y un atributo name de "form2".
+La acción (action) del formulario está vacía (action=""), lo que significa que los datos se enviarán a la misma página actual.
+Se utiliza el método get para enviar los datos.
+El formulario se abre en una nueva ventana o pestaña del navegador debido al atributo target="_blank".
+El formulario tiene una etiqueta "LOGIN" fuera del fieldset.
+Hay campos de usuario y contraseña dentro de etiquetas label, cada uno con su propio campo de entrada (input type="text).
+Hay un botón de envío (input type="submit) con el valor "Enviar".
+
+Formulario 3: 
+El formulario tiene un atributo id de "form3" y un atributo name de "form3".
+La acción (action) del formulario es "mailto:xx@xx.com”, lo que significa que al enviar el formulario, se abrirá el cliente de correo electrónico del usuario con la dirección "xx@xx.com".
+Se utiliza el método post para enviar los datos.
+El formulario se abre en una nueva ventana o pestaña del navegador debido al atributo target="_blank".
+El formulario contiene un campo de usuario (Usuario:) y un campo de contraseña (Clave:), ambos dentro de un fieldset con la leyenda "LOGIN".
+Hay un botón de reinicio (input type="reset) con el valor "Enviar".
+
+i) 
+Boton 1:
+Este botón utiliza la etiqueta <button> para crear un botón.
+Tiene un atributo type con el valor "button", que indica que es un botón sin funcionalidad específica.
+Tiene atributos name y id con el valor "boton1".
+Contiene una etiqueta <img> para mostrar una imagen llamada "logo.jpg" con un atributo alt que describe la imagen.
+La imagen tiene un ancho de 30 píxeles y una altura de 20 píxeles.
+Después de la imagen, se encuentra el texto "CLICK AQUÍ" dentro de las etiquetas <b> (negrita).
+El botón está contenido dentro de una etiqueta <label> con el texto "Botón 1".
+
+Boton 2: 
+Este botón utiliza la etiqueta <input> para crear un botón.
+El atributo type tiene el valor "button", lo que indica que es un botón de acción.
+Tiene atributos name y id con el valor "boton2".
+El atributo value tiene el valor "CLICK AQUÍ", que es el texto que se muestra en el botón.
+El botón está contenido dentro de una etiqueta <label> con el texto "Botón 2".
+
+j) Primer grupo de botones: 
+Este grupo de botones de opción permite al usuario seleccionar una opción entre "X" y "Y".
+Se utilizan dos etiquetas <label> para cada botón de opción, lo que permite que el texto y el botón estén asociados visualmente.
+Cada botón de opción está creado con la etiqueta <input> y tiene un atributo type con el valor "radio", que indica que es un botón de opción.
+Los botones de opción tienen el atributo name con el valor "opcion", lo que significa que pertenecen al mismo grupo y solo se puede seleccionar una opción en este grupo.
+Cada botón de opción tiene un atributo id único ("X" y "Y") y un atributo value correspondiente ("X" y "Y").
+Junto a cada botón de opción, hay etiquetas de texto que muestran "X" y "Y".
+Ambos botones de opción están contenidos dentro de una etiqueta <p> para separarlos visualmente.
+
+Segundo grupo de botones: 
+Este grupo de botones de opción también permite al usuario seleccionar una opción entre "X" y "Y".
+Se utilizan dos etiquetas <label> para cada botón de opción, al igual que en el primer grupo.
+Cada botón de opción tiene un atributo name diferente ("opcion1" y "opcion2"), lo que significa que estos botones de opción pertenecen a grupos separados y se puede seleccionar una opción en cada grupo.
+Aunque los botones de opción tienen el mismo atributo id ("X" y "Y"), los atributos id no deberían repetirse en el mismo documento HTML; por lo tanto, deberías usar identificadores únicos.
+Los demás aspectos, como los atributos value, etiquetas de texto y la estructura dentro de una etiqueta <p>, son similares al primer grupo.
+
+k) 
+Estos elementos <select> crean menús desplegables con opciones organizadas en grupos. El primer <select> permite una sola selección, mientras que el segundo <select> permite selección múltiple.
+
+EJ 4) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web con Marcos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1><P align="left"> <img src="logo-utn.png" alt="Logo" style=" width:500px"> </P></h1>
+    </header>
+
+    <h2> <B><FONT SIZE="500">AÑO 2008</FONT></B></h2>
+
+    <table width="200" border="1">
+        <tr>
+        <td colspan="3"><div
+        align="center"><B>Exámenes</B></div></td>
+        </tr>
+        <tr>
+        <td colspan="2"rowspan="2">Fecha: 14/8/2023</td>
+        <td>Aprobados</td>
+        </tr>
+        <tr>
+        <td width="50%">24/30</td>
+        </tr>
+        </table>
+        
+    <OL>
+        <LI>
+            <a href="#Enunciados.htm" target="main">Enunciado del examen</a>
+        </LI>
+        <LI>
+            <a href="Resolucion.htm" target="blank">Resolución</a>
+        </LI>
+    </OL>
+    <BR></BR>
+    <h3>
+        <FONT SIZE="3">Puede realizar consultas completando el siguiente formulario:</FONT>
+    </h3>
+    <form 
+        id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+        <fieldset>
+        e-mail: <input type="text" id="usu1" name="usu1" value="" /><br />
+        consulta: <input type="password" id="clave1" name="clave1" value="" />
+        </fieldset>
+        <input type="submit" id="boton1" name="boton1" value="ENVIAR" /> <input type="submit" id="boton1" name="boton1" value="BORRAR" />
+    </form>
+<BR></BR>
+    <h4>
+        <FONT SIZE="6">Enunciado del examen</FONT>
+    </h4>
+
+    <p>Ejercicio 1:.............
+        ........................
+    </p>
+
+    <p>Ejercicio 2:.............
+        ........................
+    </p>
+    
+<BR></BR>
+    <p>Para más información dirigirse a <a href="contacto@xx.com">contacto@xx.com</a></p>
+
+</body>
+
+CSS:
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, nav, main, footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+}
+
+nav ul, footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li, footer ul li {
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+
+EJ 5) 
+documento html: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web con Marcos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><P align="right"> <img src="logo-utn.png" alt="Logo" style=" width:500px"> </P></h1>
+        <h2> <P align="left"><FONT SIZE="500">Ejercicio Número 5</FONT>  </P></h2> 
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#Articulos.htm" target="main">Artículos</a></li>
+            <li><a href="#MasInfo.htm" target="main">Más Información</a></li>
+        </ul>
+    </nav>
+
+    <div id="#Articulos.htm"> 
+        <table>
+            <tr>
+                <th>Artículo</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Producto 1</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Producto 2</td>
+                <td>$150</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="#MasInfo.htm">
+        <p>Para realizar consultas, contáctenos en: <a href="mailto:consultas@empresa.com">consultas@empresa.com</a></p>
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="Articulos.htm" target="main">Artículos</a></li>
+                <li><a href="MasInfo.htm" target="main">Más Información</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+documento css: 
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, nav, main, footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+}
+
+nav ul, footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li, footer ul li {
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
